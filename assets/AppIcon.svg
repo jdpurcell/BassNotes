@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with: Axialis IconVectors - www.axialis.com -->
+<svg width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#353840"/>
+      <stop offset=".55" stop-color="#20232a"/>
+      <stop offset="1" stop-color="#101318"/>
+    </linearGradient>
+    <linearGradient id="lacquer" x1="0%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0" stop-color="#ff453f"/>
+      <stop offset=".30" stop-color="#f51b27"/>
+      <stop offset=".68" stop-color="#d7091d"/>
+      <stop offset="1" stop-color="#8c0718"/>
+    </linearGradient>
+    <linearGradient id="red-edge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0" stop-color="#ff6257"/>
+      <stop offset="1" stop-color="#e51a25"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="10%">
+      <stop offset="0" stop-color="#302422"/>
+      <stop offset=".5" stop-color="#4e3830"/>
+      <stop offset="1" stop-color="#29201e"/>
+    </linearGradient>
+    <linearGradient id="black-metal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0" stop-color="#34373a"/>
+      <stop offset=".5" stop-color="#202225"/>
+      <stop offset="1" stop-color="#111316"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset=".28" stop-color="#c9ccce"/>
+      <stop offset=".65" stop-color="#8e9398"/>
+      <stop offset="1" stop-color="#d4d6d8"/>
+    </linearGradient>
+    <linearGradient id="string" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0" stop-color="#979a9d"/>
+      <stop offset=".48" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c7c9cb"/>
+    </linearGradient>
+    <rect x="42" y="42" width="940" height="940" rx="206"/>
+  </defs>
+  <rect id="rounded-background" fill="url(#background)" stroke="#50555c" stroke-width="4" x="42" y="42" width="940" height="940" rx="206"/>
+  <g>
+    <path id="body-shadow" transform="translate(0 10)" opacity="0.5" fill="#090b0f" clip-path="url(#tile-clip)" d="M320,120C298,116,235,158,225,224C201,310,266,370,276,444C290,530,225,597,199,681C173,766,205,860,306,913C411,968,627,962,741,897C818,852,837,778,797,697C773,650,732,610,723,567C706,499,742,451,733,388C729,352,704,301,681,307C656,314,675,374,628,392C600,404,578,378,566,351L444,325C405,340,355,306,335,262C315,219,311,170,326,143C338,123,337,123,320,120z"/>
+    <path id="bass-body" fill="url(#lacquer)" clip-path="url(#tile-clip)" d="M320,110C298,106,235,148,225,214C201,300,266,360,276,434C290,520,225,587,199,671C173,756,205,850,306,903C411,958,627,952,741,887C818,842,837,768,797,687C773,640,732,600,723,557C706,489,742,441,733,378C729,342,704,291,681,297C656,304,675,364,628,382C600,394,578,368,566,341L444,315C405,330,355,296,335,252C315,209,311,160,326,133C338,113,337,113,320,110z"/>
+    <path id="body-bevel" opacity="0.72" fill="url(#red-edge)" clip-path="url(#tile-clip)" d="M320,110C298,106,235,148,225,214C201,300,266,360,276,434C290,520,225,587,199,671C173,756,205,850,306,903C237,846,218,799,244,721C270,647,324,575,313,474C304,388,259,313,261,243C264,183,292,105,320,110z"/>
+    <path id="control-plate" fill="url(#black-metal)" clip-path="url(#tile-clip)" d="M691,498C671,523,641,577,626,624C608,684,651,695,681,745C705,785,674,834,676,866C678,906,758,854,780,817C808,766,779,715,749,673C718,629,701,589,708,547C713,521,709,484,691,498z"/>
+    <path id="fretboard" fill="url(#wood)" stroke="#191819" stroke-width="3" clip-path="url(#tile-clip)" d="M420 30 L604 30 L610 398 Q610 418 590 418 L434 418 Q414 418 414 398 Z"/>
+    <rect id="fret-1" fill="url(#chrome)" clip-path="url(#tile-clip)" x="417" y="79" width="191" height="5" rx="2"/>
+    <rect id="fret-2" fill="url(#chrome)" clip-path="url(#tile-clip)" x="417" y="124" width="191" height="5" rx="2"/>
+    <rect id="fret-3" fill="url(#chrome)" clip-path="url(#tile-clip)" x="417" y="168" width="191" height="5" rx="2"/>
+    <rect id="fret-4" fill="url(#chrome)" clip-path="url(#tile-clip)" x="417" y="211" width="191" height="5" rx="2"/>
+    <rect id="fret-5" fill="url(#chrome)" clip-path="url(#tile-clip)" x="417" y="253" width="191" height="5" rx="2"/>
+    <rect id="fret-6" fill="url(#chrome)" clip-path="url(#tile-clip)" x="417" y="294" width="191" height="5" rx="2"/>
+    <rect id="fret-7" fill="url(#chrome)" clip-path="url(#tile-clip)" x="417" y="334" width="191" height="5" rx="2"/>
+    <rect id="fret-8" fill="url(#chrome)" clip-path="url(#tile-clip)" x="417" y="373" width="191" height="5" rx="2"/>
+    <circle id="fret-marker-1" fill="#e9e5df" stroke="#ffffff" stroke-width="1" clip-path="url(#tile-clip)" cx="512" cy="100" r="8"/>
+    <circle id="fret-marker-2" fill="#e9e5df" stroke="#ffffff" stroke-width="1" clip-path="url(#tile-clip)" cx="512" cy="190" r="8"/>
+    <circle id="fret-marker-3" fill="#e9e5df" stroke="#ffffff" stroke-width="1" clip-path="url(#tile-clip)" cx="512" cy="274" r="8"/>
+    <rect id="pickup-shadow-0" opacity="0.45" fill="#50020d" clip-path="url(#tile-clip)" x="377" y="487" width="270" height="72" rx="20"/>
+    <rect id="pickup-0" fill="url(#black-metal)" stroke="#111316" stroke-width="2" clip-path="url(#tile-clip)" x="376" y="482" width="272" height="70" rx="19"/>
+    <circle id="pole-0-0" fill="url(#chrome)" stroke="#c0c3c5" stroke-width="1" clip-path="url(#tile-clip)" cx="432" cy="509" r="8"/>
+    <circle id="pole-0-1" fill="url(#chrome)" stroke="#c0c3c5" stroke-width="1" clip-path="url(#tile-clip)" cx="472" cy="509" r="8"/>
+    <circle id="pole-0-2" fill="url(#chrome)" stroke="#c0c3c5" stroke-width="1" clip-path="url(#tile-clip)" cx="512" cy="509" r="8"/>
+    <circle id="pole-0-3" fill="url(#chrome)" stroke="#c0c3c5" stroke-width="1" clip-path="url(#tile-clip)" cx="552" cy="509" r="8"/>
+    <circle id="pole-0-4" fill="url(#chrome)" stroke="#c0c3c5" stroke-width="1" clip-path="url(#tile-clip)" cx="592" cy="509" r="8"/>
+    <rect id="pickup-shadow-1" opacity="0.45" fill="#50020d" clip-path="url(#tile-clip)" x="377" y="649" width="270" height="72" rx="20"/>
+    <rect id="pickup-1" fill="url(#black-metal)" stroke="#111316" stroke-width="2" clip-path="url(#tile-clip)" x="376" y="644" width="272" height="70" rx="19"/>
+    <circle id="pole-1-0" fill="url(#chrome)" stroke="#c0c3c5" stroke-width="1" clip-path="url(#tile-clip)" cx="432" cy="671" r="8"/>
+    <circle id="pole-1-1" fill="url(#chrome)" stroke="#c0c3c5" stroke-width="1" clip-path="url(#tile-clip)" cx="472" cy="671" r="8"/>
+    <circle id="pole-1-2" fill="url(#chrome)" stroke="#c0c3c5" stroke-width="1" clip-path="url(#tile-clip)" cx="512" cy="671" r="8"/>
+    <circle id="pole-1-3" fill="url(#chrome)" stroke="#c0c3c5" stroke-width="1" clip-path="url(#tile-clip)" cx="552" cy="671" r="8"/>
+    <circle id="pole-1-4" fill="url(#chrome)" stroke="#c0c3c5" stroke-width="1" clip-path="url(#tile-clip)" cx="592" cy="671" r="8"/>
+    <rect id="bridge-shadow" opacity="0.5" fill="#580410" clip-path="url(#tile-clip)" x="386" y="791" width="252" height="132" rx="16"/>
+    <rect id="bridge" fill="url(#chrome)" stroke="#e3e4e5" stroke-width="2" clip-path="url(#tile-clip)" x="386" y="783" width="252" height="132" rx="16"/>
+    <rect id="bridge-recess" fill="url(#black-metal)" stroke="#f0f0f1" stroke-width="2" clip-path="url(#tile-clip)" x="401" y="802" width="222" height="96" rx="7"/>
+    <rect id="saddle-0" fill="url(#chrome)" stroke="#969a9e" stroke-width="1" clip-path="url(#tile-clip)" x="418" y="804" width="28" height="72" rx="4"/>
+    <rect id="saddle-groove-0" fill="#666c72" clip-path="url(#tile-clip)" x="429" y="818" width="6" height="54" rx="2"/>
+    <circle id="saddle-screw-0" fill="#61666b" clip-path="url(#tile-clip)" cx="432" cy="811" r="3"/>
+    <rect id="saddle-1" fill="url(#chrome)" stroke="#969a9e" stroke-width="1" clip-path="url(#tile-clip)" x="458" y="804" width="28" height="72" rx="4"/>
+    <rect id="saddle-groove-1" fill="#666c72" clip-path="url(#tile-clip)" x="469" y="818" width="6" height="54" rx="2"/>
+    <circle id="saddle-screw-1" fill="#61666b" clip-path="url(#tile-clip)" cx="472" cy="811" r="3"/>
+    <rect id="saddle-2" fill="url(#chrome)" stroke="#969a9e" stroke-width="1" clip-path="url(#tile-clip)" x="498" y="804" width="28" height="72" rx="4"/>
+    <rect id="saddle-groove-2" fill="#666c72" clip-path="url(#tile-clip)" x="509" y="818" width="6" height="54" rx="2"/>
+    <circle id="saddle-screw-2" fill="#61666b" clip-path="url(#tile-clip)" cx="512" cy="811" r="3"/>
+    <rect id="saddle-3" fill="url(#chrome)" stroke="#969a9e" stroke-width="1" clip-path="url(#tile-clip)" x="538" y="804" width="28" height="72" rx="4"/>
+    <rect id="saddle-groove-3" fill="#666c72" clip-path="url(#tile-clip)" x="549" y="818" width="6" height="54" rx="2"/>
+    <circle id="saddle-screw-3" fill="#61666b" clip-path="url(#tile-clip)" cx="552" cy="811" r="3"/>
+    <rect id="saddle-4" fill="url(#chrome)" stroke="#969a9e" stroke-width="1" clip-path="url(#tile-clip)" x="578" y="804" width="28" height="72" rx="4"/>
+    <rect id="saddle-groove-4" fill="#666c72" clip-path="url(#tile-clip)" x="589" y="818" width="6" height="54" rx="2"/>
+    <circle id="saddle-screw-4" fill="#61666b" clip-path="url(#tile-clip)" cx="592" cy="811" r="3"/>
+    <rect id="string-shadow-0" opacity="0.3" fill="#07090c" clip-path="url(#tile-clip)" x="431.1" y="30" width="6.8" height="862"/>
+    <rect id="string-0" fill="url(#string)" clip-path="url(#tile-clip)" x="429.1" y="30" width="5.8" height="862" rx="1"/>
+    <rect id="string-shadow-1" opacity="0.3" fill="#07090c" clip-path="url(#tile-clip)" x="471.4" y="30" width="6.2" height="862"/>
+    <rect id="string-1" fill="url(#string)" clip-path="url(#tile-clip)" x="469.4" y="30" width="5.2" height="862" rx="1"/>
+    <rect id="string-shadow-2" opacity="0.3" fill="#07090c" clip-path="url(#tile-clip)" x="511.75" y="30" width="5.5" height="862"/>
+    <rect id="string-2" fill="url(#string)" clip-path="url(#tile-clip)" x="509.75" y="30" width="4.5" height="862" rx="1"/>
+    <rect id="string-shadow-3" opacity="0.3" fill="#07090c" clip-path="url(#tile-clip)" x="552.1" y="30" width="4.8" height="862"/>
+    <rect id="string-3" fill="url(#string)" clip-path="url(#tile-clip)" x="550.1" y="30" width="3.8" height="862" rx="1"/>
+    <rect id="string-shadow-4" opacity="0.3" fill="#07090c" clip-path="url(#tile-clip)" x="592.4" y="30" width="4.2" height="862"/>
+    <rect id="string-4" fill="url(#string)" clip-path="url(#tile-clip)" x="590.4" y="30" width="3.2" height="862" rx="1"/>
+    <circle id="knob-shadow-0" opacity="0.5" fill="#06080a" clip-path="url(#tile-clip)" cx="721" cy="659" r="25"/>
+    <circle id="knob-0" fill="url(#chrome)" stroke="#d2d5d6" stroke-width="2" clip-path="url(#tile-clip)" cx="720" cy="655" r="23"/>
+    <path id="knob-indicator-0" stroke="#f8f9fa" stroke-width="2" stroke-linecap="round" clip-path="url(#tile-clip)" d="M720,639L720,647"/>
+    <circle id="knob-shadow-1" opacity="0.5" fill="#06080a" clip-path="url(#tile-clip)" cx="751" cy="734" r="25"/>
+    <circle id="knob-1" fill="url(#chrome)" stroke="#d2d5d6" stroke-width="2" clip-path="url(#tile-clip)" cx="750" cy="730" r="23"/>
+    <path id="knob-indicator-1" stroke="#f8f9fa" stroke-width="2" stroke-linecap="round" clip-path="url(#tile-clip)" d="M750,714L750,722"/>
+    <circle id="knob-shadow-2" opacity="0.5" fill="#06080a" clip-path="url(#tile-clip)" cx="764" cy="810" r="25"/>
+    <circle id="knob-2" fill="url(#chrome)" stroke="#d2d5d6" stroke-width="2" clip-path="url(#tile-clip)" cx="763" cy="806" r="23"/>
+    <path id="knob-indicator-2" stroke="#f8f9fa" stroke-width="2" stroke-linecap="round" clip-path="url(#tile-clip)" d="M763,790L763,798"/>
+  </g>
+</svg>

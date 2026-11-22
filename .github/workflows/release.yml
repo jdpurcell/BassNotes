@@ -1,0 +1,54 @@
+name: Release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  DOTNET_NOLOGO: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+jobs:
+  package:
+    name: Package (${{ matrix.runner }})
+    strategy:
+      fail-fast: false
+      matrix:
+        runner: [windows-latest, macos-latest]
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install .NET 10
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Package Windows
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: ./scripts/deploy_windows.ps1
+
+      - name: Package macOS
+        if: runner.os == 'macOS'
+        shell: pwsh
+        env:
+          APPLE_DEVID_APP_CERT_DATA: ${{ secrets.APPLE_DEVID_APP_CERT_DATA }}
+          APPLE_DEVID_APP_CERT_PASS: ${{ secrets.APPLE_DEVID_APP_CERT_PASS }}
+          APPLE_ID_USER: ${{ secrets.APPLE_ID_USER }}
+          APPLE_ID_PASS: ${{ secrets.APPLE_ID_PASS }}
+        run: |
+          ./scripts/install_cert_macos.ps1
+          if (-not $?) { throw 'Certificate installation failed.' }
+          bash ./scripts/deploy_macos.sh
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Upload package
+        uses: actions/upload-artifact@v7
+        with:
+          path: dist/*
+          archive: false
+          if-no-files-found: error
